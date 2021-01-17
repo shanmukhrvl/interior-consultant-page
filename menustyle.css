@@ -1,10 +1,10 @@
-.nav__menu-wrap {
+.nav__menu {
     top: 0;
     right: 0;
     z-index: 1;
   }
   
-  .nav__menu-wrap .input__toggler {
+  .nav__menu .nav__menu--toggler {
     position: absolute;
     top: 0;
     right: 0;
@@ -13,7 +13,7 @@
     opacity: 0;
   }
   
-  .nav__menu-wrap .nav__menu--btn {
+  .nav__menu .nav__menu--btn {
     position: absolute;
     top: 0;
     right: 0;
@@ -56,33 +56,33 @@
   }
   
   /* Toggle Animate */
-  .nav__menu-wrap .input__toggler:checked + .nav__menu--btn > div {
+  .nav__menu .nav__menu--toggler:checked + .nav__menu--btn > div {
     transform: rotate(135deg);
   }
   
   /* Turn lines into X */
-  .nav__menu-wrap .input__toggler:checked + .nav__menu--btn > div::before,
-  .nav__menu-wrap .input__toggler:checked + .nav__menu--btn > div::after {
+  .nav__menu .nav__menu--toggler:checked + .nav__menu--btn > div::before,
+  .nav__menu .nav__menu--toggler:checked + .nav__menu--btn > div::after {
     top: 0;
     transform: rotate(90deg);
   }
   
   /* Show menu */
-  .nav__menu-wrap .input__toggler:checked ~ .nav__menu--list {
+  .nav__menu .nav__menu--toggler:checked ~ .nav__menu--list {
     visibility: visible;
   }
   
-  .nav__menu-wrap .input__toggler:checked ~ .nav__menu--list > div {
+  .nav__menu .nav__menu--toggler:checked ~ .nav__menu--list > div {
     transform: scale(1);
     transition-duration: 0.2s;
   }
   
-  .nav__menu-wrap .input__toggler:checked ~ .nav__menu--list > div > div {
+  .nav__menu .nav__menu--toggler:checked ~ .nav__menu--list > div > div {
     opacity: 1;
     transition: opacity 0.2s ease;
   }
   
-  .nav__menu-wrap .nav__menu--list {
+  .nav__menu .nav__menu--list {
     position: fixed;
     top: 0;
     right: 0;
@@ -95,7 +95,7 @@
     justify-content: center;
   }
   
-  .nav__menu-wrap .nav__menu--list > div {
+  .nav__menu .nav__menu--list > div {
     background: black;
     width: 200vw;
     height: 200vh;
@@ -107,7 +107,7 @@
     transition: all 0.2s ease;
   }
   
-  .nav__menu-wrap .nav__menu--list > div > div {
+  .nav__menu .nav__menu--list > div > div {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -118,3 +118,6 @@
     opacity: 0;
     transition: opacity 0.2s ease;
   }
+
+
+
