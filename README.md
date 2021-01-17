@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/shanmukhrvl/interior-consultant-page/blob/main/images/Screenshot_Interior-Consultant-Page.png?raw=true)
 
 - You can see live [review of the project [here](https://ec7837.netlify.app/)
 - By building this project, I improved my CSS3 skills, and got to know more about responsive layouts.
