@@ -34,6 +34,10 @@ body {
   padding-inline-start: 0;
 }
 
+.list-item-inline {
+  padding: 2em 0;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
