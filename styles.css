@@ -180,6 +180,10 @@ body {
     margin: auto;
   }
 
+  .main-part1 {
+    margin-right: 0.5em;
+  }
+
   .main-part1 h1 {
     font-size: 3rem;
     line-height: 3.8125rem;
@@ -188,6 +192,7 @@ body {
   .main-part1 p {
     font-size: 1.5rem;
     line-height: 1.8125rem;
+    width: 80%;
   }
 
   .main-part1 a {
